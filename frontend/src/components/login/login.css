@@ -1,0 +1,24 @@
+
+.button{
+    margin: 5px;
+    padding: 5px;
+}
+.button1{
+    margin: 5px;
+    padding: 5px;
+    margin-left: 5%;
+}
+.log-field{
+    margin: 3px;
+    padding: 3px;
+}
+.login_form{
+    margin: auto;
+    display: inline-block;
+    margin-top: 12%;
+    padding: 10px;
+    display: table;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #bbb2e9;
+}

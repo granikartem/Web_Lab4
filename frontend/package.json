@@ -1,0 +1,46 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "primeicons": "^6.0.1",
+    "primereact": "^8.7.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^8.0.5",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "start": "react-scripts start --openssl-legacy-provider",
+    "build": "react-scripts build --openssl-legacy-provider && next build && next export",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
